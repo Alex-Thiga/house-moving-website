@@ -1,0 +1,36 @@
+#headerIndex2 {
+  background: rgb(34, 34, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 32, 1) 0%,
+    rgba(43, 37, 24, 1) 44%
+  );
+  color: white;
+}
+#headerIndex2 > nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 20px 5px;
+}
+#headerIndex2 > nav > ul > li {
+  padding: 0px 30px;
+}
+
+#headerIndex2 > nav > ul > li > .buttonWorkWithUs {
+  padding: 12px 30px;
+  background-color: #f7b947;
+  border: 1px solid #f7b947;
+  border-top-right-radius: 8px;
+  color: black;
+}
+#headerIndex2 > nav > ul > li > .buttonWorkWithUs > p {
+  padding-right: 30px;
+}
+#headerIndex2 > .modernHouse {
+  display: flex;
+  justify-content: space-between;
+}
+#headerIndex2 > hr {
+  color: rgb(153, 151, 151);
+}
