@@ -1,3 +1,6 @@
+* {
+  margin: 0 10px;
+}
 #headerIndex2 {
   background: rgb(34, 34, 32);
   background: linear-gradient(
@@ -29,8 +32,17 @@
 }
 #headerIndex2 > .modernHouse {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #headerIndex2 > hr {
   color: rgb(153, 151, 151);
+}
+#sectionForm {
+  display: flex;
+  justify-content:center;
+  margin: 40px 50px 20px ;
+}
+#sectionForm > .leftImg > img {
+  width: 500px;
+  heig;
 }
