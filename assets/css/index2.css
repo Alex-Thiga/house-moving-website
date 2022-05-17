@@ -1,5 +1,6 @@
 * {
   margin: 0 10px;
+  font-family: 'poppins';
 }
 #headerIndex2 {
   background: rgb(34, 34, 32);
@@ -33,6 +34,7 @@
 #headerIndex2 > .modernHouse {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 20px;
 }
 #headerIndex2 > hr {
   color: rgb(153, 151, 151);
@@ -43,6 +45,32 @@
   margin: 40px 50px 20px ;
 }
 #sectionForm > .leftImg > img {
-  width: 500px;
-  heig;
+  width: 700px;
+}
+.flexImages{
+  display: flex;
+  width: 700px;
+}
+.flexImages > .img{
+  width: 14%;
+}
+#footer {
+  background-color: black;
+  color: white;
+  height: 400px;
+}
+#footer > .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+#footer > h3 {
+  margin-left: 140px;
+  margin-top: 40px;
+}
+#footer > hr {
+  width: 150vh;
+  margin: 30px auto;
+  background-color: rgb(207, 203, 203);
 }
