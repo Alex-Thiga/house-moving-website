@@ -86,4 +86,9 @@
   margin: 30px auto;
   background-color: rgb(207, 203, 203);
 }
-.decri
+.description > h3{
+  margin: 30px 0px;
+}
+.description > hr{
+  margin: 30px 0px;
+}
