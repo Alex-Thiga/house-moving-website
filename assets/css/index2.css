@@ -50,15 +50,26 @@
 .flexImages{
   display: flex;
   width: 700px;
+  margin-left: 140px;
+  margin-bottom: 50px;
 }
-.flexImages > .img{
-  width: 14%;
+.flexImages > img{
+  width: 11.9%;
+
 }
-#features > .airConditioning{
+.airConditioning{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 40px;
+}
+#features{
+  width: 50%;
+  border: 0.5px solid rgb(238, 236, 236);
+  margin:40px 150px;
+  border-radius: 8px;
+  padding: 20px;
+
 }
 #features > hr{
   margin: 40px 0px;
@@ -79,16 +90,59 @@
 }
 #footer > h3 {
   margin-left: 140px;
-  margin-top: 40px;
+  padding: 50px;
 }
 #footer > hr {
   width: 150vh;
-  margin: 30px auto;
+  margin: 50px auto;
   background-color: rgb(207, 203, 203);
+}
+.description{
+  width: 50%;
+  border: 0.5px solid rgb(238, 236, 236);
+  margin:40px 150px;
+  border-radius: 8px;
+  padding: 20px;
 }
 .description > h3{
   margin: 30px 0px;
 }
 .description > hr{
   margin: 30px 0px;
+}
+#arrow{
+  color: yellow;
+}
+#readMore{
+  border: 1px solid black;
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 8px;
+}
+table {
+  padding: 30px;
+  border-spacing: 35px;
+  width: 71%;
+}
+table,
+th {
+  border: 1px solid rgb(192, 187, 187);
+  border-collapse: collapse;
+  border-bottom: none;
+  padding: 10px 20px;
+}
+.details2{
+  width: 700px;
+  border: 1px solid rgb(219, 217, 217);
+  padding: 20px 0px;
+  margin-left: 140px;
+  border-radius: 8px;
+}
+#text > h3{
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+#text > h3 > .bottomIcons > table{
+  margin-bottom: 30px;
 }
